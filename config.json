@@ -1,0 +1,6 @@
+{
+  "server": "http://127.0.0.1:12345",
+  "ipfs": {
+    "src": "https://unpkg.com/ipfs@0.34.4/dist/index.js"
+  }
+}
