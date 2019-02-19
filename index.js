@@ -15,8 +15,7 @@ window.onload = async () => {
   
   const srvurl = config.server + '/' + uhash;
   log.i('Fetching comments snapshot from', srvurl);
-  // const folderId = await (await fetch(srvurl)).text();
-  const folderId = 'QmYGw1DiYo94kfSKGQfC83Jxt7w54gnuwoyBre2x3Wz3pc';
+  const folderId = await (await fetch(srvurl)).text();
   log.i('Comments snapshot:', folderId);
 
   log.i('Loading IPFS script...');
